@@ -8,6 +8,7 @@ class Cocktails(db.Model):
     """Type of cocktails along with it's descriptors"""
 
     __tablename__ = "cocktails"
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     iba = db.Column(db.Boolean)
     name = db.Column(db.String(50),unique=True)
     colors = db.Column(db.String(30),nullable=False)
@@ -22,7 +23,8 @@ class Ingredients (db.Model):
        ABV stands for alcohol by volume"""
 
     __tablename__ = "ingredients"
-    name = db.Column(db.String(50),unqiue = True,nullable=False)
+    id = db.Column(db.Integer, primary_key=True,autoincrement=True)
+    name = db.Column(db.String(50),unique = True,nullable=False)
     abv = db.Column(db.Integer,nullable=False)
     taste = db.Column(db.String(50))
 

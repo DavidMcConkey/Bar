@@ -9,5 +9,5 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SQLALCHEMY_ECHO'] = True
 
 with app.app_context():
-    connect_db()
+    connect_db(app)
 
