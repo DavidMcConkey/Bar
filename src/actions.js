@@ -37,6 +37,13 @@ export function updateFavourites(payload) {
 export function addToBar(payload) {
   return { type: actionTypes.ADD_TO_BAR, payload };
 }
+export function togglePride() {
+  return { type: actionTypes.TOGGLE_PRIDE };
+}
+
+export function toggleLingo() {
+  return { type: actionTypes.TOGGLE_LINGO };
+}
 
 export function updateSettings(payload) {
   return { type: actionTypes.UPDATE_SETTINGS, payload };
