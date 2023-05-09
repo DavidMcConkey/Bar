@@ -1,16 +1,6 @@
 import { arrayContainsArray } from "./util";
 import { getIngredientKeys } from "./cocktail.utils";
 
-/**
- * Cocktail filtering rules
- *
- * each rule basically needs to return 'true' if the cocktail should
- * be returned. Adding an export here will automatically make it
- * applyable as a filter so long as an equivalent entry exists
- * in the 'filterConfig'.
- *
- */
-
 export function nameIncludes(cocktail, { searchText }) {
   return cocktail.name.toLowerCase().includes(searchText.toLowerCase());
 }
