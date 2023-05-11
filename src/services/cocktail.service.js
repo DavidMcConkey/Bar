@@ -1,6 +1,6 @@
-import cocktails from "../../server/data/cocktail.json";
-import ingredients from "../../server/data/ingredients.json";
-import glasses from "../../server/data/glasses.json";
+import cocktails from "../data/cocktail.json";
+import ingredients from "../data/ingredients.json";
+import glasses from "../data/glasses.json";
 
 import { isArray } from "lodash";
 
