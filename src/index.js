@@ -1,17 +1,17 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import App from "./App";
 import { loadDatabase } from "./util/db.utils";
 import { Provider } from "react-redux";
 import store from "./store";
-
+import { createRoot } from "react-dom/client";
+const container = document.getElementById("root");
+const root = createRoot(container);
 async function start() {
   await loadDatabase(store);
-  ReactDOM.render(
+  root.render(
     <Provider store={store}>
       <App />
-    </Provider>,
-    document.getElementById("root")
+    </Provider>
   );
 }
 
