@@ -3,7 +3,7 @@ import { Typography } from "@material-ui/core";
 import { withTheme, withStyles } from "@material-ui/core/styles";
 import { connect } from "react-redux";
 import { CircularProgressbar } from "react-circular-progressbar";
-import { makeableCocktailsSelector } from "../../selectors";
+import { makeableCocktailsSelector } from "../../selectors/index";
 import "react-circular-progressbar/dist/styles.css";
 
 const styles = (theme) => ({
@@ -20,7 +20,6 @@ const styles = (theme) => ({
 const CocktailGauge = ({ allCocktails, makeableCocktails, classes, theme }) => {
   const progressBarStyles = {
     path: {
-      // Path color
       stroke: theme.palette.primary.main,
     },
     trail: {

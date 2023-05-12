@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import { withStyles } from "@material-ui/core/styles";
 import { Typography, List, ListItem, ListItemText } from "@material-ui/core";
 import { Link } from "react-router-dom";
-import { makeableCocktailsSelector } from "../../selectors";
+import { makeableCocktailsSelector } from "../../selectors/index";
 
 const styles = (theme) => ({
   title: {
