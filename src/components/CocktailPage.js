@@ -3,7 +3,7 @@ import useScrollTop from "../hooks/useScrollTop";
 import useEnrichCocktail from "../hooks/useEnrichCocktail";
 import { connect } from "react-redux";
 import { Fade, Box, Grid } from "@material-ui/core";
-import { currentCocktailSelector } from "../selectors";
+import { currentCocktailSelector } from "../selectors/index";
 import { makeStyles } from "@material-ui/core/styles";
 import CocktailDetail from "./CocktailPage/CocktailDetail";
 import CocktailVariantList from "./CocktailPage/CocktailVariantList";

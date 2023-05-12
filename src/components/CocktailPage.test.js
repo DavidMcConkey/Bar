@@ -5,8 +5,8 @@ import store from "../store";
 import { Provider } from "react-redux";
 import { MemoryRouter } from "react-router";
 import { noop } from "lodash";
-import cocktails from "../data/cocktails.json";
-import { loadDatabase } from "../utilities/db.utils";
+import cocktails from "../data/cocktail.json";
+import { loadDatabase } from "../util/db.utils";
 
 beforeAll(async () => {
   await loadDatabase(store);

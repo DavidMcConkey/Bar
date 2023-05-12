@@ -1,7 +1,7 @@
 import React from "react";
 import { updateFavourites } from "../actions";
 import { connect } from "react-redux";
-import { isFavouriteSelector, allGlassesSelector } from "../selectors";
+import { isFavouriteSelector, allGlassesSelector } from "../selectors/index";
 import CocktailAvatar from "./CocktailAvatar";
 import {
   Card,

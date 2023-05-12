@@ -4,7 +4,7 @@ import TableView from "./TableView";
 import store from "../store";
 import { Provider } from "react-redux";
 import { MemoryRouter } from "react-router";
-import { loadDatabase } from "../utilities/db.utils";
+import { loadDatabase } from "../util/db.utils";
 
 beforeAll(async () => {
   await loadDatabase(store);

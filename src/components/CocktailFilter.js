@@ -18,7 +18,7 @@ import { connect } from "react-redux";
 import { updateFilter, activateFilterDialog } from "../actions";
 import FilterListIcon from "@material-ui/icons/FilterList";
 import SearchIcon from "@material-ui/icons/Search";
-import { filteredCocktailsSelector } from "../selectors";
+import { filteredCocktailsSelector } from "../selectors/index";
 import pluralize from "pluralize";
 const styles = (theme) => ({
   filters: {

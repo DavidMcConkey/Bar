@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import CocktailList from "./CocktailList";
 import CocktailFilter from "./CocktailFilter";
 import ScrollTopButton from "./ScrollTopButton";
-import { filteredCocktailsSelector } from "../selectors";
+import { filteredCocktailsSelector } from "../selectors/index";
 
 const CocktailBrowser = ({ filteredCocktails }) => {
   return (
