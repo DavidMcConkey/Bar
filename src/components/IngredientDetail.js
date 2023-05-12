@@ -3,7 +3,7 @@ import { Tooltip } from "@material-ui/core";
 import { connect } from "react-redux";
 import { withStyles } from "@material-ui/core/styles";
 import compact from "lodash/compact";
-import { createMeasurementString } from "../util/cocktails.utils";
+import { createMeasurementString } from "../util/cocktail.utils";
 const styles = {
   tooltip: {
     cursor: "pointer",

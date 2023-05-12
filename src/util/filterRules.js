@@ -1,5 +1,5 @@
 import { arrayContainsArray } from "./util";
-import { getIngredientKeys } from "./cocktails.utils";
+import { getIngredientKeys } from "./cocktail.utils";
 
 export function nameIncludes(cocktail, { searchText }) {
   return cocktail.name.toLowerCase().includes(searchText.toLowerCase());
