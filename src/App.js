@@ -4,21 +4,25 @@ import CocktailBrowser from "./components/CocktailBrowser";
 import CocktailPage from "./components/CocktailPage";
 import Bar from "./components/Bar";
 import Settings from "./components/Settings";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Topbar from "./components/Topbar";
 
 function App() {
   return (
-    <Theme>
-      <Router>
-        <Topbar />
-        {}
-        <Route exact path={["/", "/cocktails"]} component={CocktailBrowser} />
-        <Route path={"/cocktails/:slug"} component={CocktailPage} />
-        <Route path="/my-bar" component={Bar} />
-        <Route path="/settings" component={Settings} />
-      </Router>
-    </Theme>
+    <div>
+      <Theme>
+        <Router>
+          <Topbar />
+          <Routes>
+            <Route exact path="/" element={<CocktailBrowser />} />
+            <Route exact path="/cocktails" element={<CocktailBrowser />} />
+            <Route path={"/cocktails/:slug"} element={<CocktailPage />} />
+            <Route path="/my-bar" element={<Bar />} />
+            <Route path="/settings" element={<Settings />} />
+          </Routes>
+        </Router>
+      </Theme>
+    </div>
   );
 }
 

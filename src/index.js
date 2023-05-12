@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import { loadDatabase } from "./utilities/db.utils";
+import { loadDatabase } from "./util/db.utils";
 import { Provider } from "react-redux";
 import store from "./store";
 

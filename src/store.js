@@ -1,10 +1,7 @@
 import appReducer from "./reducers";
-import { configureStore, applyMiddleware, compose } from "redux";
+import { configureStore, applyMiddleware, compose, createStore } from "redux";
 
-import {
-  persistCurrentState,
-  supportsPersistence,
-} from "./utilities/persistence";
+import { persistCurrentState, supportsPersistence } from "./util/persistence";
 import throttle from "lodash/throttle";
 
 import thunk from "redux-thunk";
@@ -14,7 +11,7 @@ const devtools =
 
 const middlewares = compose(applyMiddleware(thunk), devtools || ((a) => a));
 
-const store = configureStore(appReducer, middlewares);
+const store = createStore(appReducer, middlewares);
 
 if (supportsPersistence()) {
   store.subscribe(

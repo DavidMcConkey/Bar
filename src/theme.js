@@ -1,5 +1,5 @@
 import React from "react";
-import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
+import { MuiThemeProvider, createTheme } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import indigo from "@material-ui/core/colors/indigo";
 import red from "@material-ui/core/colors/red";
@@ -20,8 +20,8 @@ export const colors = {
   purple: deepPurple,
 };
 
-function createTheme(color, theme) {
-  return createMuiTheme({
+function createMuiTheme(color, theme) {
+  return createTheme({
     palette: {
       primary: colors[`${color}`],
       secondary: theme === "light" ? pink : cyan,
@@ -39,7 +39,7 @@ const mapStateToProps = (state) => ({
 });
 
 const Theme = ({ color, theme, children }) => (
-  <MuiThemeProvider theme={createTheme(color, theme)}>
+  <MuiThemeProvider theme={createMuiTheme(color, theme)}>
     <CssBaseline>{children}</CssBaseline>
   </MuiThemeProvider>
 );

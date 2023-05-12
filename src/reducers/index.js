@@ -1,5 +1,5 @@
-import produce from "immer";
-import { loadPersistedState } from "../utilities/persistence";
+import { produce } from "immer";
+import { loadPersistedState } from "../util/persistence";
 import { hasDialog } from "../filterConfig";
 
 import * as actionTypes from "../actionTypes";
@@ -31,8 +31,6 @@ const defaultState = {
   },
 };
 
-// Parts of the initial state will be from our persistence layer.
-
 const persistedState = loadPersistedState();
 
 const initialState = produce(
@@ -46,9 +44,6 @@ const initialState = produce(
   }
 );
 
-/**
- * Main reducer
- */
 export default (state = initialState, action) =>
   produce(state, (draft) => {
     switch (action.type) {

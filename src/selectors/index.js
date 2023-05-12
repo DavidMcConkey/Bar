@@ -5,7 +5,7 @@ import {
   applyFilters,
   applyFilter,
   filtersFromUserOptions,
-} from "../utilities/filter";
+} from "../util/filter";
 
 const allCocktailsSelector = (state) => state.db.cocktails;
 export const allGlassesSelector = (state) => state.db.glasses;
