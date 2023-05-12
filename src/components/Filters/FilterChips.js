@@ -3,7 +3,7 @@ import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
 import { withStyles } from "@material-ui/core/styles";
 import { Chip } from "@material-ui/core";
-import { removeOrAddItemFromArray } from "../../utilities/util";
+import { removeOrAddItemFromArray } from "../../util/util";
 import { updateFilter, activateFilterDialog } from "../../actions";
 
 const styles = (theme) => ({

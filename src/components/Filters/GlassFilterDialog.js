@@ -15,7 +15,7 @@ import {
 
 import { allGlassesSelector } from "../../selectors";
 import { updateFilter } from "../../actions";
-import { removeOrAddItemFromArray } from "../../utilities/util";
+import { removeOrAddItemFromArray } from "../../util/util";
 
 const GlassFilter = ({ glasses, allGlasses, updateFilter }) => {
   return (

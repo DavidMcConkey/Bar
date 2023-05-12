@@ -13,7 +13,7 @@ import {
 
 import { allCategoriesSelector } from "../../selectors";
 import { updateFilter } from "../../actions";
-import { removeOrAddItemFromArray } from "../../utilities/util";
+import { removeOrAddItemFromArray } from "../../util/util";
 
 const CategoryFilter = ({ categories, allCategories, updateFilter }) => {
   return (
