@@ -1,6 +1,6 @@
 import React from "react";
 import CocktailCard from "./CocktailCard";
-import { GridList } from "@material-ui/core";
+import { ImageList } from "@material-ui/core";
 import { withStyles } from "@material-ui/core/styles";
 
 const styles = () => {
@@ -13,11 +13,11 @@ const styles = () => {
 
 const CardView = ({ classes, displayedCocktails }) => {
   return (
-    <GridList className={classes.gridList}>
+    <ImageList className={classes.gridList}>
       {displayedCocktails.map((cocktail) => (
         <CocktailCard key={cocktail.name} cocktail={cocktail} />
       ))}
-    </GridList>
+    </ImageList>
   );
 };
 
