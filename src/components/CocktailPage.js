@@ -2,7 +2,7 @@ import React from "react";
 import useScrollTop from "../hooks/useScrollTop";
 import { connect } from "react-redux";
 import { Fade, Box, Grid } from "@material-ui/core";
-import { currentCocktailSelector } from "../selectors";
+import { currentCocktailSelector } from "../selectors/index";
 import { makeStyles } from "@material-ui/core/styles";
 import CocktailDetail from "./CocktailPage/CocktailDetail";
 import CocktailVariantList from "./CocktailPage/CocktailVariantList";
@@ -10,13 +10,13 @@ import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { enrichCocktail } from "../actions";
 
-function useEnrichCocktail(cocktail) {
+const useEnrichCocktail = (cocktail) => {
   const dispatch = useDispatch();
 
   useEffect(() => {
     cocktail && dispatch(enrichCocktail(cocktail));
   }, [dispatch, cocktail]);
-}
+};
 
 const fullHeight = "92vh";
 

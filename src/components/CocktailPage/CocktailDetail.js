@@ -1,6 +1,6 @@
 import React from "react";
 import { Typography, Paper } from "@material-ui/core";
-import { allGlassesSelector } from "../../selectors";
+import { allGlassesSelector } from "../../selectors/index";
 import IngredientDetail from "../IngredientDetail";
 import Definition from "./Definition";
 import { withStyles } from "@material-ui/core/styles";
