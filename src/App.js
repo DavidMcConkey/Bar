@@ -16,7 +16,7 @@ function App() {
           <Routes>
             <Route exact path="/" element={<CocktailBrowser />} />
             <Route exact path="/cocktails" element={<CocktailBrowser />} />
-            <Route path={"/cocktails/:slug"} element={<CocktailPage />} />
+            <Route exact path={"/cocktails/:slug"} element={<CocktailPage />} />
             <Route path="/my-bar" element={<Bar />} />
             <Route path="/settings" element={<Settings />} />
           </Routes>
