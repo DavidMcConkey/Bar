@@ -1459,7 +1459,304 @@ cocktails = [
       "preparation": "Stir with crushed ice and strain. Alternatively you could use half Blue Curaçao and half Triple Sec."
     }
   ]
-
+ingredients = {
+    "Absinthe": {
+      "abv": 40,
+      "taste": 'null'
+    },
+    "Agave nectar": {
+      "abv": 0,
+      "taste": "sweet"
+    },
+    "Angostura bitters": {
+      "abv": 44,
+      "taste": "bitter"
+    },
+    "Aperol": {
+      "abv": 11,
+      "taste": "bitter"
+    },
+    "Apricot brandy": {
+      "abv": 40,
+      "taste": 'null'
+    },
+    "Blackberry liqueur": {
+      "abv": 40,
+      "taste": 'null'
+    },
+    "Blue Curaçao": {
+      "abv": 40,
+      "taste": "sweet"
+    },
+    "Cachaca": {
+      "abv": 40,
+      "taste": 'null'
+    },
+    "Calvados": {
+      "abv": 40,
+      "taste": 'null'
+    },
+    "Campari": {
+      "abv": 25,
+      "taste": 'null',
+      "vegan": False
+    },
+    "Champagne": {
+      "abv": 12,
+      "taste": 'null'
+    },
+    "Cherry liqueur": {
+      "abv": 30,
+      "taste": 'null'
+    },
+    "Citron Vodka": {
+      "abv": 40,
+      "taste": 'null'
+    },
+    "Coconut milk": {
+      "abv": 0,
+      "taste": "sweet"
+    },
+    "Coffee": {
+      "abv": 0,
+      "taste": "bitter"
+    },
+    "Coffee liqueur": {
+      "abv": 20,
+      "taste": "bitter"
+    },
+    "Cognac": {
+      "abv": 40,
+      "taste": 'null'
+    },
+    "Cola": {
+      "abv": 0,
+      "taste": "bitter"
+    },
+    "Cranberry juice": {
+      "abv": 0,
+      "taste": "sour"
+    },
+    "Cream": {
+      "abv": 0,
+      "taste": "sweet",
+      "vegan": False
+    },
+    "Créme de Cacao": {
+      "abv": 20,
+      "taste": 'null'
+    },
+    "Créme de Cassis": {
+      "abv": 15,
+      "taste": 'null'
+    },
+    "Créme de Menthe": {
+      "abv": 25,
+      "taste": 'null'
+    },
+    "Crème de violette": {
+      "abv": 20,
+      "taste": 'null'
+    },
+    "Cream liqueur": {
+      "abv": 20,
+      "taste": 'null',
+      "vegan": False
+    },
+    "Dark rum": {
+      "abv": 40,
+      "taste": 'null'
+    },
+    "DiSaronno": {
+      "abv": 28,
+      "taste": 'null'
+    },
+    "DOM Bénédictine": {
+      "abv": 40,
+      "taste": 'null',
+      "vegan": False
+    },
+    "Drambuie": {
+      "abv": 40,
+      "taste": 'null',
+      "vegan": False
+    },
+    "Dry White Wine": {
+      "abv": 12,
+      "taste": 'null'
+    },
+    "Egg white": {
+      "abv": 0,
+      "taste": 'null',
+      "vegan": False
+    },
+    "Egg yolk": {
+      "abv": 0,
+      "taste": 'null',
+      "vegan": False
+    },
+    "Galliano": {
+      "abv": 30,
+      "taste": "sweet"
+    },
+    "Gin": {
+      "abv": 40,
+      "taste": 'null'
+    },
+    "Ginger Ale": {
+      "abv": 0,
+      "taste": 'null'
+    },
+    "Ginger beer": {
+      "abv": 5,
+      "taste": "sweet"
+    },
+    "Grapefruit juice": {
+      "abv": 0,
+      "taste": "sour"
+    },
+    "Honey": {
+      "abv": 0,
+      "taste": "sweet",
+      "vegan": False
+    },
+    "Kirsch": {
+      "abv": 40,
+      "taste": 'null'
+    },
+    "Lemon juice": {
+      "abv": 0,
+      "taste": "sour"
+    },
+    "Lillet Blonde": {
+      "abv": 15,
+      "taste": 'null'
+    },
+    "Lime": {
+      "abv": 0,
+      "taste": "sour"
+    },
+    "Lime juice": {
+      "abv": 0,
+      "taste": "sour"
+    },
+    "Mint": {
+      "abv": 0,
+      "taste": 'null'
+    },
+    "Olive juice": {
+      "abv": 0,
+      "taste": "sour"
+    },
+    "Orange bitters": {
+      "abv": 40,
+      "taste": 'null'
+    },
+    "Orange flower water": {
+      "abv": 0,
+      "taste": 'null'
+    },
+    "Orange juice": {
+      "abv": 0,
+      "taste": "sweet"
+    },
+    "Peach bitters": {
+      "abv": 0,
+      "taste": "fruity"
+    },
+    "Peach puree": {
+      "abv": 0,
+      "taste": "sweet"
+    },
+    "Peach schnapps": {
+      "abv": 40,
+      "taste": "sweet"
+    },
+    "Peychaud’s bitters": {
+      "abv": 35,
+      "taste": "woody"
+    },
+    "Pineapple juice": {
+      "abv": 0,
+      "taste": "sweet"
+    },
+    "Pisco": {
+      "abv": 40,
+      "taste": 'null'
+    },
+    "Prosecco": {
+      "abv": 12,
+      "taste": 'null'
+    },
+    "Raspberry liqueur": {
+      "abv": 20,
+      "taste": "sweet"
+    },
+    "Raspberry syrup": {
+      "abv": 0,
+      "taste": "sweet"
+    },
+    "Red Port": {
+      "abv": 20,
+      "taste": 'null'
+    },
+    "Soda water": {
+      "abv": 0,
+      "taste": 'null'
+    },
+    "Sparkling Wine": {
+      "abv": 12,
+      "taste": 'null'
+    },
+    "Sugar": {
+      "abv": 0,
+      "taste": "sweet"
+    },
+    "Syrup": {
+      "abv": 0,
+      "taste": "sweet"
+    },
+    "Tequila": {
+      "abv": 40,
+      "taste": 'null'
+    },
+    "Tomato juice": {
+      "abv": 0,
+      "taste": "salty"
+    },
+    "Triple Sec": {
+      "abv": 40,
+      "taste": "sweet"
+    },
+    "Vanilla extract": {
+      "abv": 0,
+      "taste": "sweet"
+    },
+    "Vermouth": {
+      "abv": 17,
+      "taste": 'null'
+    },
+    "Vodka": {
+      "abv": 40,
+      "taste": 'null'
+    },
+    "Whiskey": {
+      "abv": 40,
+      "taste": 'null'
+    },
+    "White rum": {
+      "abv": 40,
+      "taste": 'null'
+    },
+    "Worcestershire Sauce": {
+      "abv": 0,
+      "taste": 'null'
+    }
+  }
 for cocktail in cocktails:
     db.session.add(Cocktails(**cocktail))
+db.session.commit()
+
+for ingredient in ingredients:
+    db.session.add(Ingredients(**ingredient))
 db.session.commit()
