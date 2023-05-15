@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import useScrollTop from "../hooks/useScrollTop";
 import { connect } from "react-redux";
 import { Fade, Box, Grid } from "@material-ui/core";
@@ -6,7 +6,6 @@ import { currentCocktailSelector } from "../selectors/index";
 import { makeStyles } from "@material-ui/core/styles";
 import CocktailDetail from "./CocktailPage/CocktailDetail";
 import CocktailVariantList from "./CocktailPage/CocktailVariantList";
-import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { enrichCocktail } from "../actions";
 
@@ -45,7 +44,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export const CocktailPage = ({ cocktail }) => {
+const CocktailPage = ({ cocktail }) => {
   const classes = useStyles();
   useScrollTop();
   useEnrichCocktail(cocktail);
