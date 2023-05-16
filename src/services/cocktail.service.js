@@ -4,7 +4,7 @@ import glasses from "../data/glasses.json";
 import React, { useState, useEffect } from "react";
 import { isArray } from "lodash";
 
-export function retrieveData() {
+export function RetrieveData() {
   const [cocktails, setCocktails] = useState("");
   const [ingredients, setIngredients] = useState("");
 
