@@ -1753,10 +1753,11 @@ ingredients = {
       "taste": 'null'
     }
   }
-for cocktail in cocktails:
-    db.session.add(Cocktails(**cocktail))
-db.session.commit()
+def seed():
+    for cocktail in cocktails:
+        db.session.add(Cocktails(**cocktail))
+        db.session.commit()
 
-for ingredient in ingredients:
-    db.session.add(Ingredients(**ingredient))
-db.session.commit()
+    for ingredient in ingredients:
+        db.session.add(Ingredients(**ingredient))
+        db.session.commit()

@@ -71,7 +71,7 @@ const CocktailCard = ({
     <Card className={classes.card}>
       <CardActionArea
         className={classes.cardMain}
-        component={Link}
+        // component={Link}
         to={`/cocktails/${cocktail.slug}`}
       >
         <CardHeader

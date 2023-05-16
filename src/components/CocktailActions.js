@@ -43,18 +43,18 @@ const CocktailActions = ({
           Favourite
         </ConditionalHidden>
       </Button>
-      <Button
+      {/* <Button
         component={Link}
         to={`/cocktails/${cocktail.slug}`}
         className={classes.button}
         size="large"
         color="secondary"
-      >
-        <ReadMoreIcon />
+      > */}
+      {/* <ReadMoreIcon />
         <ConditionalHidden hideOnXS={hideLabelOnXS}>
           Learn More
-        </ConditionalHidden>
-      </Button>
+        </ConditionalHidden> */}
+      {/* </Button> */}
     </>
   );
 };
