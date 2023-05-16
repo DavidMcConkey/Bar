@@ -1,8 +1,22 @@
 import cocktails from "../data/cocktail.json";
 import ingredients from "../data/ingredients.json";
 import glasses from "../data/glasses.json";
-
+import React, { useState, useEffect } from "react";
 import { isArray } from "lodash";
+
+export function retrieveData() {
+  const [cocktails, setCocktails] = useState("");
+  const [ingredients, setIngredients] = useState("");
+
+  useEffect(() => {
+    fetch("/data")
+      .then((res) => res.json())
+      .then((data) => {
+        setCocktails(data.cocktail);
+        setIngredients(data.ingredients);
+      });
+  }, []);
+}
 
 export function fetchCocktails() {
   return Promise.resolve(
