@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# BarMate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+With a background in Bartending, the amount of times someone would ask me for some cocktail I've never heard of is inumerable. Google always offered way too many variations, which is why I came up with BarMate!
+BarMate is a bartenders best friend, it displays all cocktails that are certified by the IBA (International Bartender Association) as well as some fun extras! With correct measurements and necessary garnishes, it's easy to quickly use the filter or search bar to find exactly which cocktail you need to make.
 
-## Available Scripts
+The main page is where the user can find all the cocktails through scrolling ,searching, or filtering a number of ways. In addition to this the user can favorite their most made drinks so they are easily found in the future.
 
-In the project directory, you can run:
+The bar page is where the user can select ingredients they have at their disposal to find out which of the cocktails they can make, and filter effectively.
 
-### `npm start`
+Settings is where the user can manipulate certain things like theme, units of alcohol, color, as well as a couple other fun options!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This site was built using React, Python, Flask, PosgreSQL, and Redux
+## Local Usage
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To run this locally you would need `nodejs` / `npm` installed. First clone the repo, and then :
 
-### `npm test`
+```
+npm install
+npm start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
