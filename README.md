@@ -11,10 +11,13 @@ BarMate is a bartenders best friend, it displays all cocktails that are certifie
 - Persistence 
 
 The main page is where the user can find all the cocktails through scrolling ,searching, or filtering a number of ways. In addition to this the user can favorite their most made drinks so they are easily found in the future.
+![Screenshot](/public/Screenshot1.png?raw=true)
 
 The bar page is where the user can select ingredients they have at their disposal to find out which of the cocktails they can make, and filter effectively.
+![Screenshot](/public/Screenshot2.png?raw=true)
 
 Settings is where the user can manipulate certain things like theme, units of alcohol, color, as well as a couple other fun options!
+![Screenshot](/public/Screenshot3.png?raw=true)
 
 This site was built using React, Python, Flask, PosgreSQL, and Redux
 ## Local Usage
