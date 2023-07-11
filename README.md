@@ -32,8 +32,4 @@ npm start
 
 ## Deployment
 
-This project is being hosted by Vercel within the link below.
-
-```
-https://bar-mate-4fpe.vercel.app/cocktails
-```
+This project is being hosted by Vercel within the link [here](https://bar-mate-4fpe.vercel.app/cocktails).
