@@ -8,7 +8,7 @@ BarMate is a bartenders best friend, it displays all cocktails that are certifie
 - Filter by ingredient, category, glass, vegan or "makeable from your bar"
 - Ability to "favourite" cocktails
 - Integration with [TheCocktailDB](https://www.thecocktaildb.com/) for enrichment
-- Persistence 
+- Persistence
 
 The main page is where the user can find all the cocktails through scrolling ,searching, or filtering a number of ways. In addition to this the user can favorite their most made drinks so they are easily found in the future.
 ![Screenshot](/public/Screenshot1.png?raw=true)
@@ -20,6 +20,7 @@ Settings is where the user can manipulate certain things like theme, units of al
 ![Screenshot](/public/Screenshot3.png?raw=true)
 
 This site was built using React, Python, Flask, PosgreSQL, and Redux
+
 ## Local Usage
 
 To run this locally you would need `nodejs` / `npm` installed. First clone the repo, and then :
@@ -29,4 +30,10 @@ npm install
 npm start
 ```
 
+## Deployment
 
+This project is being hosted by Vercel within the link below.
+
+```
+https://bar-mate-4fpe.vercel.app/cocktails
+```
