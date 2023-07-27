@@ -16,7 +16,7 @@ The main page is where the user can find all the cocktails through scrolling ,se
 The bar page is where the user can select ingredients they have at their disposal to find out which of the cocktails they can make, and filter effectively.
 ![Screenshot](/public/Screenshot2.png?raw=true)
 
-Settings is where the user can manipulate certain things like theme, units of alcohol, color, as well as a couple other fun options!
+Settings is where the user can manipulate certain things like theme, units of alcohol, color, as well as a pride mode!
 ![Screenshot](/public/Screenshot3.png?raw=true)
 
 This site was built using React, Python, Flask, PosgreSQL, and Redux
